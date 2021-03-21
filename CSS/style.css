@@ -1,0 +1,171 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+#jobs {
+    font-family: cursive;
+}
+
+#foods {
+    font-family: cursive;
+}
+
+#countries {
+    font-family: cursive;
+}
+
+#Email {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#Email a {
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+#Email a:hover, #GitHub a:hover, #Phone a:hover {
+    color: aqua;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.spacer
+{
+    width: 100%;
+    height: 50px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#Phone {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#Phone a {
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+#GitHub {
+    font-family: cursive;
+    color: #F0F0F0;
+}
+
+#GitHub a {
+    font-family: cursive;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.aboutme {
+    width: 100%;
+    background-color: #27282A;
+    color: #F0F0F0;
+    top: 5%;
+}
+
+#contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #303841;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.projects-section {
+    background-color: #45567D;
+    text-align: center;
+    padding: 10rem 2rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project {
+    background: #45567D;
+    border-radius: 2px;
+}
+
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
